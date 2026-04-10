@@ -1,0 +1,129 @@
+:root {
+  --color1: #00D781;
+  --color2: #3BBF44;
+  --color3: #F2CE1B;
+  --color4: #00BF44;
+  --color5: #144D20;
+  --color6: #072B10;
+  --color7: #83EB71;
+  --color8: #397242;
+}
+
+body {
+  background-image: linear-gradient(
+    100deg,
+    var(--color1),
+    var(--color2)
+  );
+  margin: 0px;
+  padding: 0px;
+}
+
+
+header {
+  background-color: darkgreen;
+  weight: 100%;
+  padding: 20px;
+  box-shadow: 5px 0px 10px #00000090;
+}
+
+header * {
+  margin: 0px;
+  padding: 0px;
+}
+
+#small-colored-hidroz {
+  
+}
+
+/*
+header h1 {
+  color: white;
+  text-shadow: 2px 2px 5px #00000050;
+}
+*/
+
+div {
+  background-color: var(--color4);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px 5px 0px 0px;
+  border-color: white;
+  border: 5px solid white;
+  border-bottom: 0px;
+}
+
+nav {
+  background-color: var(--color4);
+  padding: 5px;
+  margin-top: 10px;
+  border: 5px solid white;
+  border-top: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav a {
+  color: var(--color5);
+  padding-right: 15px;
+}
+
+nav a:hover {
+  color: var(--color6);
+  background-color: var(--color7);
+  transition-duration: 0.2s;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 0px;
+  padding-bottom: 5px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px;
+}
+
+section h1 {
+  background-color: var(--color4);
+  color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+section p {
+  text-align: justify;
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+}
+footer p {
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+  padding: 1px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+footer a {
+  background-image: linear-gradient(to right, transparent, #B9EF8A 10% 90%, transparent);
+  color: var(--color8);
+  padding: 0px 10px;
+}
